@@ -1,8 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export const GifCollectionItem = ({id, title, url}) => {
    
-    
    
     return (
         <div className="card animate__animated animate__backInUp">
@@ -10,4 +10,9 @@ export const GifCollectionItem = ({id, title, url}) => {
             <p>{title}</p>
         </div>
     )
+}
+
+GifCollectionItem.propTypes ={
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
 }
