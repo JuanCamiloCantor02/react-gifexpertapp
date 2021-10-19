@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <GifCollection/> debe de mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    goku
+  </h3>
+  <div
+    className="card-collection"
+  >
+    <GifCollectionItem
+      id="ABC"
+      key="ABC"
+      title="COSA"
+      url="https://123456/456564.jpg"
+    />
+    <GifCollectionItem
+      id="cde"
+      key="cde"
+      title="Lechona"
+      url="https://dsadsadsa/dsadasdas.jpg"
+    />
+    <GifCollectionItem
+      id="fgj"
+      key="fgj"
+      title="Pan"
+      url="https://456das5644das/dsa54d64as5465.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`pruebas en <GifCollection/> debe mostrarse correctamente  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    goku
+  </h3>
+  <p>
+    loading...
+  </p>
+  <div
+    className="card-collection"
+  />
+</Fragment>
+`;

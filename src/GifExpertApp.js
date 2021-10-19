@@ -4,10 +4,12 @@ import { AddCategory } from './components/AddCategory';
 import { GifCollection } from './components/GifCollection';
 
 
-export const GifExpertApp = () =>{
+export const GifExpertApp = ({defaultCategories = []}) =>{
     /* const categories = ["Dragon ball Z", "Pokemon", "Un Show Mas"] */
 
-    const [categories, setCategories] = useState(["venom"]);
+    /* tener una categoria en duro
+    const [categories, setCategories] = useState(["venom"]); */
+    const [categories, setCategories] = useState(defaultCategories);
     
     /* const handleAdd = () =>{
           setCategories([...categories, "Mr Beats"]);
